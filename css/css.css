@@ -1,0 +1,29 @@
+/* Moviles arriba de 480px) */
+@media screen and (max-width: 767px) {
+	#fecha {
+		font-size: 3.4em;
+	}
+}
+/* Tablets de 768px o aproximados) */
+@media (min-width: 768px) and (max-width: 991px) {
+	#fecha {
+		font-size: 6.4em;
+	}
+}
+/* Tablets y Desktops o aproximados */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#fecha {
+		font-size: 8.0em;
+	}
+}
+/* Desktops Largos o Aproximados ----------- */
+@media screen and (min-width: 1200px) {
+	#fecha {
+		font-size: 9.4em;
+	}
+}
+
+
+#fecha{
+    color:#456498;
+}
